@@ -1,0 +1,40 @@
+{
+    "_comment": "=== BONGO TIGER - Fisier de Configurare ===",
+
+    "SCALE_FACTOR": 0.2,
+
+    "_paw_offsets_comment": "Pozitia labelor fata de corpul tigrului (in pixeli originali, inainte de scalare)",
+    "PAW_L_X_OFFSET": 0,
+    "PAW_L_Y_OFFSET": 280,
+    "PAW_R_X_OFFSET": 351,
+    "PAW_R_Y_OFFSET": 280,
+
+    "_bounce_comment": "Cat de mult coboara laba la fiecare animatie (in pixeli pe ecran, NU scalati). Default: 25",
+    "PAW_BOUNCE_DISTANCE": 25,
+
+    "_bounce_frames_comment": "Cate frame-uri dureaza animatia labei (la 60fps: 8 = ~0.13s, 15 = ~0.25s)",
+    "PAW_BOUNCE_FRAMES_KEY": 8,
+    "PAW_BOUNCE_FRAMES_MOUSE_MOVE": 5,
+    "PAW_BOUNCE_FRAMES_MOUSE_CLICK": 12,
+
+    "_message_comment": "Mesajul afisat cand dai click pe tigru",
+    "CLICK_MESSAGE": "Rawr! \ud83d\udc2f",
+    "CLICK_MESSAGE_DURATION_FRAMES": 90,
+
+    "_counter_comment": "Contorul de click-uri afisat la hover",
+    "SHOW_COUNTER_ON_HOVER": true,
+    "COUNTER_SAVE_FILE": "click_count.json",
+    "COUNTER_FONT_SIZE": 14,
+    "COUNTER_TEXT_COLOR": [255, 255, 255],
+    "COUNTER_BG_COLOR": [20, 20, 20],
+    "COUNTER_BG_ALPHA": 180,
+
+    "_message_font_comment": "Stilul mesajului Rawr",
+    "MESSAGE_FONT_SIZE": 16,
+    "MESSAGE_TEXT_COLOR": [255, 255, 255],
+    "MESSAGE_BG_COLOR": [30, 30, 30],
+    "MESSAGE_BG_ALPHA": 210,
+
+    "_system_comment": "Culoarea folosita pentru transparenta ferestrei (nu schimba daca nu stii ce faci!)",
+    "TRANS_COLOR": [12, 12, 12]
+}
